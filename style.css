@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://blog.maxieduca.com.br/wp-content/uploads/2018/03/Imagem-Destacada-3-1024x728.jpg");
+  background-color: #000000;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  right: 270px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  position: absolute;
+  top: 50px;
+  right: 255px;
+}
+
+.page-logo {
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  right: 400px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.resultado {
+  position: absolute;
+  top: 350px;
+  right: 230px;
+  color: white;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  position: absolute;
+  top: 230px;
+  right: 375px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: blue;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  borde-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: absolute;
+  top: 260px;
+  right: 400px;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.final {
+  position: absolute;
+  top: 350px;
+  right: 340px;
+  color: White;
+}
